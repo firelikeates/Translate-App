@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(226, 199, 164);
+}
+
+.container{
+    max-width: 1400px;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.card{
+    height: 58vh;
+    width: 70%;
+    background-color: aliceblue;
+    border: 2px solid rgb(34, 33, 33);
+    padding: 40px;
+    margin-top:-30px;
+}
+.select-part{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+    margin-top: 0px;
+}
+.select-part select{
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid black;
+    border-radius: 20px;margin-right: 80px;
+    background-color: rgb(226, 199, 164);
+    font-size: 16px;
+    font-weight: 500;
+}
+.translate-part{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+}
+.translate-part textarea{
+    height: 140px;
+    width: 39%;
+    color: black;
+    padding: 12px 16px;
+    resize: none;
+    margin: 0 15px;
+    font-size: 15px;
+    box-shadow: 2px 4px 5px rgb(34, 33, 33);
+    font-family: sans-serif;
+}
+.translate-part textarea:nth-child(1){
+    margin-left:30px ;
+}
+.translate-part i{
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+.btn-translate{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 30px;
+    width: 70%;
+    border: none;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+}
+.btn-translate button{
+    width: 90%;
+    margin-left: 30%;
+    padding: 10px 16px;
+    border-radius: 20px;
+    user-select: none;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    color: black;
+    background-color: rgb(226, 199, 164);
+    font-size: larger;
+    margin-bottom: -10px;
+    border:none;
+}
+.btn-translate button:hover{
+    background-color: rgb(185, 152, 109);
+
+}
